@@ -17,7 +17,7 @@ jobs:
           key: cache-ddd469e
 
       - name: prime-cache-ddd469e
-        run: echo Cache status: ${{ steps.cache.outputs.cache-hit }}
+        run: echo Cache status ${{ steps.cache.outputs.cache-hit }}
 
       - name: Say My Name
         run: echo "Anusha Saha"
